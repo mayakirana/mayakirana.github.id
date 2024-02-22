@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Pribadi</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.font-awesome.com/1165876da6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav><div class="nav_content">
+            <div class="logo"><a href="#">Mayaipus</a></div>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
+            </label>
+            <input type="checkbox" name="check" id="check">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="section">
+        <div class="section_container">
+            <div class="content">
+                <p class="subtitle">HELLO</p>
+                <h1 class="title">
+                    Saya <span>Mayaipus<br>seorang</span> Pelajar
+                </h1>
+                <p class="description">
+                    Selamat datang di blog bribadi saya! Nama saya Maya Kirana, saya adalah siswi di SMKN 1 Dlanggu
+                    jurusan RPL (Rekayasa Perankat Lunak) yang saat ini menjalani masa prakerin. Saya prakerin di salah 
+                    satu DU/DI yakni PANDORADEV, disini saya belajar banyak mengenai dunia pemrograman seperti belajar
+                    mengenai HTML, CSS, dan juga BOOTSTRAP.
+                </p>
+                <div class="action_btn">
+                    <button class="hire_me">Hire Me</button>
+                    <button class="portfolio">Portfolio</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="puspa.png" alt="ini foto diri saya">
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="section_container">
+            <div class="content">
+                <div id="about">
+                    <h1 class="title">About Me</h1>
+                    <p class="description">
+                        Hallo nama saya Maya Puspa Kirana, saya siswi kelas 11 jurusan RPL dari SMKN 1 DLANGGU. Selama 
+                        saya menghabiskan waktu setengah tahun di SMKN 1 DLANGGU saya sangat banyak mempelajari hal-hal 
+                        mengenai dunia Pemrograman saat ini saya sedang mendalami materi tentang HTML dan CSS. Awalnya saya
+                        saya tidak minat untuk masuk ke jurusan ini, tapi setelah 1 setengah tahun saya menjalani sekolah 
+                        di SMKN 1 Dlanggu saya mulai merasa enjoy dengan jurusan RPL ini.
+                    </p>
+                </div>
+            </div>
+            <div class="image-2">
+                <img src="oke.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="section_container">
+            <div class="content">
+                <div id="contact">
+                    <h1 class="title">Contact Me</h1>
+                    <form action="process_contact.php" method="POST">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email:puspamaya60@gmail.com</p>
+                <p>Phone:+62-857-9162-4006</p>
+                <p>Address:Your Address 123 street</p>
+            </div>
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                 <ul class="list">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                 </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <p>&copy; 2024 your company . All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
